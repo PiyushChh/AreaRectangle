@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 public class RectangleTest{
     
     @Test
-    void shouldReturnOneWhenLengthIsOneAndBreadthIsOne(){
+    void shouldReturnAreaOfOneWhenLengthIsOneAndBreadthIsOne(){
         Rectangle rectangle=new Rectangle(1,1);
 
         int expected=1;
